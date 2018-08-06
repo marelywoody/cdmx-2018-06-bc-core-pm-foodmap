@@ -3,5 +3,5 @@ window.onload = () => {
 };
 
 const redirect = () => {
-  window.location = '../views/view.html';
+  window.location = '../src/views/view.html';
 };
