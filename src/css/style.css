@@ -2,3 +2,8 @@ body{
   background-color: #2A2C5E;
   color: #D5AD1E; 
 }
+#food{
+  position: relative;
+  top: 2em;
+  left: 15em;
+}
