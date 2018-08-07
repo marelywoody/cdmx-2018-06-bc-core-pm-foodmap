@@ -6,13 +6,13 @@ let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 let info = document.getElementById('info');
 
-// let map;
-// function initMap() {
-//   map = new google.maps.Map(document.getElementById('map'), {
-//     center: {lat: 19.4978, lng: -99.1269},
-//     zoom: 15
-//   });
-// };
+let map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 19.4978, lng: -99.1269},
+    zoom: 15
+  });
+};
 search.addEventListener('click', event => {
   let searchFood = food.value;
   if (searchFood === 'italiana' || searchFood === 'Italiana') {

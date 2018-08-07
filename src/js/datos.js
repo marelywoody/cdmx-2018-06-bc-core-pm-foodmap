@@ -32,25 +32,27 @@ window.datos =  {
     precio: '$'
   },
   francesa: {
-    nombre: 'Nonna',
-    direccion: ' Amsterdam 240, Condesa, 06140 Ciudad de México, CDMX',
-    horario: '13:00 - 00:00 hrs',
-    telefono: '01 55 2978 0700',
-    reserva: 'opentable.com.mx',
-    precio: '$$'
+    nombre: 'Au Pied de Cochon',
+    direccion: 'the Presidente Intercontinental Hotel, Campos Elíseos 218, Polanco, Polanco IV Secc, 11550 Ciudad de México, CDMX',
+    horario: '24 hrs',
+    telefono: '01 55 5327 7756',
+    reserva: 'opentable.com.mx, restorando.com.mx',
+    precio: '$$$$'
   },
   india: {
-    nombre: 'Nonna',
-    direccion: ' Amsterdam 240, Condesa, 06140 Ciudad de México, CDMX',
-    horario: '13:00 - 00:00 hrs',
-    telefono: '01 55 2978 0700',
-    reserva: 'opentable.com.mx'
+    nombre: 'Restaurante Tandoor Condesa',
+    direccion: 'Hipódromo Condesa, 06100 Ciudad de México, CDMX',
+    horario: '13:00 hrs - 23:00 hrs',
+    telefono: '01 55 5553 9592',
+    reserva: 'no hay',
+    precio: '$$'
   },
   mexicana: {
-    nombre: 'Nonna',
-    direccion: 'Amsterdam 240, Condesa, 06140 Ciudad de México, CDMX',
-    horario: '13:00 - 00:00 hrs',
-    telefono: '01 55 2978 0700',
-    reserva: 'opentable.com.mx'
+    nombre: 'Chapulin',
+    direccion: 'Campos Elíseos 218, Polanco, Polanco IV Secc, 11560 Ciudad de México, CDMX',
+    horario: '13:00 hrs - 23:00 hrs',
+    telefono: '01 55 5327 7789',
+    reserva: 'opentable.com.mx, restorando.com.mx',
+    precio: '$$$'
   }
 };

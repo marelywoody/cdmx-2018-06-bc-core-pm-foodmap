@@ -1,6 +1,6 @@
 #map{
   height: 400px;
-  width: 100%;
+  width: 50%;
 }
 
 .modal {
@@ -47,6 +47,6 @@
 }
 
 #imag-food2{
-  width: 200px; 
-  height: 200px;
+  width: 250px; 
+  height: 250px;
 }
