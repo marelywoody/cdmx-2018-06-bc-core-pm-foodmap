@@ -41,12 +41,12 @@
   cursor: pointer;
 }
 
-#imagenes{
-  width: 200px; 
-  height: 200px;
+#imag-food{
+  width: 400px; 
+  height: 400px;
 }
 
-#imag-food{
+#imag-food2{
   width: 200px; 
   height: 200px;
 }

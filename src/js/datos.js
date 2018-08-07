@@ -24,12 +24,12 @@ window.datos =  {
     precio: '$$'
   },
   china: {
-    nombre: 'Nonna',
-    direccion: ' Amsterdam 240, Condesa, 06140 Ciudad de México, CDMX',
-    horario: '13:00 - 00:00 hrs',
-    telefono: '01 55 2978 0700',
-    reserva: 'opentable.com.mx',
-    precio: '$$'
+    nombre: 'Asian Bay',
+    direccion: 'Av. Tamaulipas 95, Hipódromo, 06170 Ciudad de México, CDMX',
+    horario: '13:00 hrs - 22:30 hrs',
+    telefono: '01 55 5553 4582',
+    reserva: 'no hay',
+    precio: '$'
   },
   francesa: {
     nombre: 'Nonna',
@@ -42,6 +42,13 @@ window.datos =  {
   india: {
     nombre: 'Nonna',
     direccion: ' Amsterdam 240, Condesa, 06140 Ciudad de México, CDMX',
+    horario: '13:00 - 00:00 hrs',
+    telefono: '01 55 2978 0700',
+    reserva: 'opentable.com.mx'
+  },
+  mexicana: {
+    nombre: 'Nonna',
+    direccion: 'Amsterdam 240, Condesa, 06140 Ciudad de México, CDMX',
     horario: '13:00 - 00:00 hrs',
     telefono: '01 55 2978 0700',
     reserva: 'opentable.com.mx'
