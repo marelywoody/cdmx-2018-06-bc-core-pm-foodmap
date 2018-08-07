@@ -1,6 +1,9 @@
 let food = document.getElementById('search-food');
 let search = document.getElementById('search');
 let imag = document.getElementById('imagenes');
+let win = document.getElementById('win');
+let btn = document.getElementById("myBtn");
+let span = document.getElementsByClassName("close")[0];
 // search1.addEventListener('click', event => {
 //   let search2 = search1.value;
 // });
@@ -14,18 +17,30 @@ let imag = document.getElementById('imagenes');
 search.addEventListener('click', event => {
   let searchFood = food.value;
   if (searchFood === 'italiana' || searchFood === 'Italiana') {
-    imag.innerHTML = `<img src="../imagenes/italiana.jpg" alt="italiana" id="imag-food">`;
+    imag.innerHTML = `<a href="#myBtn" id="myBtn"> <img src="../imagenes/italiana.jpg" alt="italiana" id="imag-food"> </a>`;
   } else if (searchFood === 'japonesa' || searchFood === 'Japonesa') {
-    imag.innerHTML = `<img src="../imagenes/japonesa.jpg" alt="italiana" id="imag-food">`;
+    imag.innerHTML = `<a href="#myBtn" id="myBtn"> <img src="../imagenes/japonesa.jpg" alt="italiana" id="imag-food"> </a>`;
   } else if (searchFood === 'argentina' || searchFood === 'Argentina') {
-    imag.innerHTML = `<img src="../imagenes/argentina.jpg" alt="italiana" id="imag-food">`;
+    imag.innerHTML = `<a href="#myBtn" id="myBtn"> <img src="../imagenes/argentina.jpg" alt="italiana" id="imag-food"> </a>`;
   } else if (searchFood === 'china' || searchFood === 'China') {
-    imag.innerHTML = `<img src="../imagenes/china.jpg" alt="italiana" id="imag-food">`;
+    imag.innerHTML = `<a href="#myBtn" id="myBtn"> <img src="../imagenes/china.jpg" alt="italiana" id="imag-food"> </a>`;
   } else if (searchFood === 'francesa' || searchFood === 'Francesa') {
-    imag.innerHTML = `<img src="../imagenes/francesa.jpg" alt="italiana" id="imag-food">`;
+    imag.innerHTML = `<a href="#myBtn" id="myBtn"> <img src="../imagenes/francesa.jpg" alt="italiana" id="imag-food"> </a>`;
   } else if (searchFood === 'india' || searchFood === 'India') {
-    imag.innerHTML = `<img src="../imagenes/india.jpg" alt="italiana" id="imag-food">`;
+    imag.innerHTML = `<a href="#myBtn" id="myBtn"> <img src="../imagenes/india.jpg" alt="italiana" id="imag-food"> </a>`;
   } else {
     alert('Comida no enontrada');
   }
 });
+
+btn = function myFun() {
+  win.style.display = "block";
+}
+span.onclick = function() {
+  win.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == win) {
+      win.style.display = "none";
+  }
+}
