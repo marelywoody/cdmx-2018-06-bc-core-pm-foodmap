@@ -8,18 +8,21 @@
   <body>
     <h1>foodmap</h1>
     <div id="map"></div>
-    <input type="search" id="search-food" placeHolder="Busque su comida favorita">
-    <input type="button" id="search" value="Buscar">
+    <div>
+      <input type="search" id="search-food" placeHolder="Busque su comida favorita">
+      <input type="button" id="search" value="Buscar">
+    </div>
+    <input type="button" value="Info" id="myBtn">
     <div id="imagenes"></div>
-    <div id="win" class="modal">
+    <div id="win" class="modal" name="win">
       <div id="conteiner">
         <span class="close">&times;</span>
-        <p></p>
+        <p>modal</p>
       </div>
     </div>
     <script src="../js/index.js"></script>
-    <!-- <script async defer
+    <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCffSaMi_9tP_bMdql0Pj7Eyslpmtgs14o&callback=initMap">
-    </script> -->
+    </script>
   </body>
 </html>
