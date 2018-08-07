@@ -1,5 +1,5 @@
 window.onload = () => {
-  window.setTimeout('redirect()', 5000);
+  window.setTimeout('redirect()', 3000);
 };
 
 const redirect = () => {
