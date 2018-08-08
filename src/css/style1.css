@@ -1,5 +1,6 @@
 body{
   background-color: #193495;
+  font-family: Georgia;
 }
 h1{
   font: 5em sans-serif;
@@ -26,7 +27,7 @@ h1{
 
 
 #conteiner-info {
-  background-color: #fefefe;
+  background-color: #D2B3A4;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
